@@ -1,0 +1,3 @@
+open text2
+save text2
+close text2

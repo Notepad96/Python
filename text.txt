@@ -1,0 +1,8 @@
+text open2
+text save
+text close
+text save2
+==========
+text save2
+==========
+text save2
