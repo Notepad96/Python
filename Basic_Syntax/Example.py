@@ -25,6 +25,7 @@ print( pow(5, 3) )  # 5^3   == 5**3
 print( round(5.155) )   # 반올림
 num = 5.575
 print( round(num) )   # 반올림
+print( round(num, 2))
 print( round(num*10)/10 )   # 소수점 아래 2번째에서 반올림
 print( type(num) )
 
