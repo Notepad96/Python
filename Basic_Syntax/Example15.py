@@ -1,7 +1,6 @@
-s = "Zbcdefg"
+import theater_module as tt
+# from theater_module import price_baby
 
-li = list(s)
-li.sort(reverse=True)
-s2 = ''.join(li)
-
-print(s2) 
+tt.price(4)         # 개당 20000
+tt.price_baby(3)    # 개당 5000
+tt.price_morning(5) # 개당 10000
