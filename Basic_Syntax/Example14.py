@@ -4,11 +4,11 @@ try:
     num2 = int(input("두번 째? "))
     print(f"{num1} + {num2} = {num1/num2}")
 except ValueError:
-    print("숫자를 입력해주시오!!")
+    print("숫자를 입력하시오!!")
 except ZeroDivisionError as err:
     print(err)
 except:
-    print("에러 발생했다.")
+    print("에러가 발생했습니다.")
 
 print("=======================================")
 
